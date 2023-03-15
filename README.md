@@ -1,9 +1,11 @@
 # README
 
-This is the reposirory for the data and codes for the publication Yáñez-Cuadra V,Moreno M, Ortega-Culaciati F,Donoso F,Báez JC and Tassara A (2023), Mosaicking Andean morphostructure and seismic cycle crustal deformation patterns using GNSS velocities and machine learning. Front. Earth Sci.11:1096238. doi:10.3389/feart.2023.1096238 
+Welcome to the data and code repository for our recent publication, "Mosaicking Andean morphostructure and seismic cycle crustal deformation patterns using GNSS velocities and machine learning" (Yáñez-Cuadra et al., 2023), published in Frontiers in Earth Science. The DOI for this publication is 10.3389/feart.2023.1096238.
 
-The data files are in the data directory with the names pre2014 for the before 2014 dataset and velocidades_sam.txt for the 2018-2021 velocities.
+Our data files are located in the "data" directory, with the "pre2014" dataset containing data from before 2014 and "velocidades_sam.txt" containing data from 2018-2021.
 
-To apply the clustering, first you need to run the preprocess.py script which calculates the strain. By editing the line 31 you can select the pre or post period.
+To apply the clustering, please begin by running the "preprocess.py" script, which calculates the strain. You can select the pre- or post-period by editing line 31 of the script.
 
-Once the script has finishing running you can run velocity_clustering.py and strian_clustering.py. The results of these scripts are saved in the output directory.  
+Once the "preprocess.py" script has finished running, you can run "velocity_clustering.py" and "strain_clustering.py". The results of these scripts will be saved in the "output" directory.
+
+Thank you for your interest in our work. If you have any questions or comments, please do not hesitate to contact us via mail to Vicente Yáñez Cuadra vicenteyanez@proton.me.
